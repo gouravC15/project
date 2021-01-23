@@ -6,3 +6,5 @@ This map provides a discriptive area of land covered by the cities population al
 
 DATA SOURCE:
 Bhuvan, QGIS(Desk.App), Maharashtra District Boundaries shp files.
+
+![LULC_Map](https://user-images.githubusercontent.com/39980788/105606055-12c47880-5dbd-11eb-81da-be46e2b89bb7.jpeg)
