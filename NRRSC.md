@@ -12,6 +12,7 @@ lib used: PIL, Pandas, Numpy, Basemap
 
 
 #Region of interest data generation
+
 from netCDF4 import Dataset
 import numpy as np
 import pandas as pd
@@ -81,6 +82,7 @@ df.to_csv("india_temperature.csv")
 
 
 #Combining data files for transition
+
 from netCDF4 import Dataset
 import numpy as np
 import matplotlib.pyplot as plt
