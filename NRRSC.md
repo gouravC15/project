@@ -18,7 +18,7 @@ import numpy as np
 import pandas as pd
 
 # reading netcdfdata
-data = Dataset("/Users/gouravchirkhare/PycharmProjects/ISRO_Map20/TempData/2010.nc")
+data = Dataset("<file path/>.nc")
 
 # creating variabless to store data
 lat = data.variables['lat'][:]
@@ -89,7 +89,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 
 
-data = Dataset(r"/Users/gouravchirkhare/PycharmProjects/ISRO_Map20/TempData/2015.nc",'r')
+data = Dataset(<file path>)
 
 lats = data.variables['lat'][:]
 lons= data.variables['lon'][:]
@@ -122,5 +122,5 @@ for i in days:
     day=i+1
     plt.title("India's Average Temperature: Day" +str(day)+'-2015')
     plt.clim(-40,40)
-    plt.savefig(r"/Users/gouravchirkhare/PycharmProjects/ISRO_Map20/AllDayData/2015/"+str(day)+".jpg")
+    plt.savefig(file path/"+str(day)+".jpg")
     plt.clf()
